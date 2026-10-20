@@ -1,0 +1,17 @@
+{
+    "name": "aula-0610",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.6",
+        "express": "^5.2.1",
+        "pg": "^8.23.1",
+        "pg-hstore": "^2.3.4",
+        "sequelize": "^6.37.8"
+    },
+    "scripts": {
+        "dev": "nodemon main.js",
+        "start": "node main.js"
+    }
+}
